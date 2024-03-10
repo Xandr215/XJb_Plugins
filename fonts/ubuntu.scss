@@ -1,0 +1,88 @@
+// Variables
+$medium: 500; // Font weight for medium variants
+$light: 300;  // Font weight for light variants
+
+// Font imports
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: url('ubuntu/Ubuntu.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: $medium;
+  src: url('ubuntu/Ubuntu-medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: $light;
+  src: url('ubuntu/Ubuntu-light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: bold;
+  src: url('ubuntu/Ubuntu-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: normal;
+  src: url('ubuntu/Ubuntu-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: $medium;
+  src: url('ubuntu/Ubuntu-mi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: bold;
+  src: url('ubuntu/Ubuntu-bi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: $light;
+  src: url('ubuntu/Ubuntu-li.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: url('ubuntu/mono/UbuntuMono.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: normal;
+  src: url('ubuntu/mono/UbuntuMono-italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: bold;
+  src: url('ubuntu/mono/UbuntuMono-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: bold;
+  src: url('ubuntu/mono/UbuntuMono-bi.ttf') format('truetype');
+}
